@@ -1,0 +1,61 @@
+body {
+    font-family: "Roboto", sans-serif;
+  }
+  h1 {
+    text-align: center;
+  }
+  table,
+  form {
+    width: 500px;
+    margin: 20px auto;
+  }
+  table {
+    border-collapse: collapse;
+    width: 70%;
+  }
+  table td,
+  table th {
+    border: solid 1px black;
+  }
+  label,
+  input {
+    display: block;
+    margin: 10px 0;
+    font-size: 20px;
+  }
+  button {
+    display: block;
+  }
+  .selected{
+     background-color: aqua;
+     font-weight: bold ;
+     color : whitesmoke;
+  }
+  .table-row{
+    cursor : pointer;
+  }
+  tr {
+    margin: 3px;
+    padding: 3px;
+    background: #EEEEEE;
+  }
+  tr.highlight {
+    background: greenyellow;
+  }
+  tr:hover {background-color: coral;}
+  th {
+    background-color: green;
+    color: white;
+  }
+  .deleteBtn {
+    border-radius: 2px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 70%;
+    
+  }
+  .doneBtn {
+    border-radius: 2px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 70%;
+  }
+  
